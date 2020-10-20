@@ -1,6 +1,6 @@
-#
-....
-滲透測試
 
-....
-d
+Kill a process using Taskkill
+1.Open the command prompt as the current user or as Administrator.
+2.Type tasklist to see the list of running processes and their PIDs. ...
+3.To kill a process by its PID, type the command: taskkill /F /PID pid_number.
+4.To kill a process by its name, type the command taskkill /IM "process name" /F
